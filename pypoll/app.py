@@ -1,7 +1,11 @@
 #import libraries 
+import os
+import csv
 
-#path the csv assets
+#path the csv
+csvpath = os.path.join("..", "assets", "budget_data.csv")
 
+print(csvpath)
 #define variables
 
 #read the csv file
